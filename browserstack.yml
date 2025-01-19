@@ -6,7 +6,7 @@ platforms:
     osVersion: 16
     browserName: safari
     deviceOrientation: portrait
-    # enableApplePay: true
+    enableApplePay: true
 buildName: DrMartens Auto Test
 buildIdentifier: ${DATE_TIME}
 projectName: DrMartens

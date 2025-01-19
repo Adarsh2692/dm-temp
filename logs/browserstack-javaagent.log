@@ -2139,3 +2139,134 @@
 02:30:47.875 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 02:30:50.999 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e92cbfc609c7421b75ab28ef70cf90a14024923c
 02:30:50.999 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:54:12.541 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:54:12.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:54:12.639 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:54:12.639 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:54:12.667 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:54:12.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:54:15.605 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:54:16.682 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+02:54:16.682 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+02:54:16.684 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-01-19T21:24:16.682605Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+02:54:16.684 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:54:17.080 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:54:17.081 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:54:17.103 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:54:19.491 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:54:49.523 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:54:49.524 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:54:49.616 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:54:49.616 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:54:49.648 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:54:49.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:54:52.398 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:54:53.400 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+02:54:53.401 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+02:54:53.401 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-01-19T21:24:53.401119Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+02:54:53.401 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:54:53.762 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:54:53.763 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:54:53.787 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:54:56.096 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:55:40.281 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:55:40.283 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:55:40.378 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:55:40.379 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:55:40.406 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:55:40.555 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:55:43.241 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:55:44.675 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:55:44.676 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:55:44.699 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:55:46.983 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:55:51.038 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/5s3olk3a68r3ay9rxwiipuehc3ab5ygs8cykfpvf to view build report, insights, and many more debugging information all at one place!
+
+02:55:51.039 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:56:13.530 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:56:13.531 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:56:13.622 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:56:13.623 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:56:13.650 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:56:13.800 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:56:16.402 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:56:17.807 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:56:17.808 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:56:17.834 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:56:20.182 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:56:24.216 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/axseal1fw5eme7ehsmkzjldiestnrmi6slccxagp to view build report, insights, and many more debugging information all at one place!
+
+02:56:24.217 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:57:44.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:57:44.628 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:57:44.721 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:57:44.722 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:57:44.749 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:57:44.900 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:57:47.617 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:57:49.156 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:57:49.157 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:57:49.181 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:57:51.589 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:58:34.625 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+02:58:34.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.6.0
+02:58:34.716 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:58:34.716 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:58:34.746 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:58:34.893 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+02:58:37.404 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:58:38.803 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, cucumber.publish.quiet=true, user.dir=/Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation, localrepository=/Users/adarsh/.m2/repository}
+02:58:38.804 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/browserstack.yml
+02:58:38.830 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:58:41.192 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:02:45.283 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qhnsizi51ascqq7iycabsmdf1dqjz1litpwi75xn to view build report, insights, and many more debugging information all at one place!
+
+03:02:45.284 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:02:47.364 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5f45919170651855356bf140caed3f9b198eac5b
+03:02:47.364 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:03:36.328 [main] ERROR c.browserstack.utils.UtilityMethods - Exception while invoking maven goal /Users/adarsh/Downloads/DM_Hybris_ApplePay_MiniVersion/dm_automation/target/surefire/surefirebooter12811017287130732478.jar
+03:03:39.041 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/pwqgkjqem8dbnhm1bgg68xxlgwoqwun256wrjjac to view build report, insights, and many more debugging information all at one place!
+
+03:03:39.041 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:03:43.912 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/778542e23a47a96930f221debe7ef5af73d0d4cb
+03:03:43.913 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
