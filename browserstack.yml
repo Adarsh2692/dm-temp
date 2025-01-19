@@ -1,0 +1,18 @@
+userName: user
+accessKey: key
+framework: cucumber-junit5
+platforms:
+  - deviceName: iPhone 14
+    osVersion: 16
+    browserName: safari
+    deviceOrientation: portrait
+    # enableApplePay: true
+buildName: DrMartens Auto Test
+buildIdentifier: ${DATE_TIME}
+projectName: DrMartens
+debug: true
+networkLogs: true
+consoleLogs: info
+interactiveDebugging: true
+testObservability: true
+geoLocation: GB

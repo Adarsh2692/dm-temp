@@ -1,0 +1,22 @@
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
+framework: cucumber-junit5
+platforms:
+  - deviceName: Samsung Galaxy S23 Ultra
+    osVersion: 13.0
+    browserName: chrome
+    deviceOrientation: portrait
+browserstackLocal: true
+browserStackLocalOptions:
+  localIdentifier: browserstack_local_identifier
+  forceLocal: true
+buildName: $(BROWSERSTACK_BUILD_NAME)
+buildIdentifier: $(BROWSERSTACK_BUILD_NAME)
+parallelsPerPlatform: 2
+projectName: DrMartens
+debug: true
+networkLogs: true
+consoleLogs: info
+resolution: 1920x1080
+interactiveDebugging: true
+testObservability: true
